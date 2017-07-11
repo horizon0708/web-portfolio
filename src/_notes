@@ -1,0 +1,12 @@
+https://github.com/facebookincubator/create-react-app/issues/295
+consider just importing the necessary css (bootstrap, fontawesome)
+
+https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
+
+
+[] just build the layout using just html and css.
+[] later delete the css, recreate on react.
+delete:
+    [] font awesome
+    [] bootstrap
+    [] font
