@@ -3,15 +3,25 @@ import * as ProjectActions from  '../actions/ProjectActions';
 import ProjectStore from '../stores/ProjectStore';
 import '../style/Main.css';
 
+import Featured from './Featured';
+
 export default class Main extends React.Component{
     constructor(){
         super();
         this.state ={
-            projects: ""
+            projects: "",
+            featured: ""
         }
     }
 
     componentWillMount(){
+        ProjectStore.on("change", ()=>{
+            this.setState({
+                projects: ProjectStore.getAll(),
+                featured: ProjectStore.getFeatured()
+            });
+        })
+
         ProjectActions.loadData();
     }
 
@@ -20,7 +30,7 @@ export default class Main extends React.Component{
         return(
             <div className="row">
                 <div className="col-md-12 main-placeholder">
-                    <img src={imageUrl}></img>
+                    <Featured featured={this.state.featured} />
                 </div>
             </div>
         );

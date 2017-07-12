@@ -8,27 +8,13 @@ import Projects from '../data/Projects.json';
 class ProjectStore extends EventEmitter {
     constructor() {
         super();
-        this.projects = [{
-            id: 101,
-            name: "test",
-            codepen: "",
-            github: "",
-            page: "",
-            description: "",
-            thumbnail: "" // link to thumbnail?
-        }];
-
+        this.projects = [];
     }
 
     // load, save data 
     loadData(){
-        // Projects.readFile('../data/Projects.json', 'json', (err, data)=>{
-        //     console.log(data);
-        // })
-        //console.log(Projects);
         this.projects = Projects;
         this.emit("change");
-        console.log(this.projects);
     }
 
     /// get
@@ -36,8 +22,12 @@ class ProjectStore extends EventEmitter {
         return this.projects;
     }
 
-    getProject(id){
+    getFeatured() {
+        return this.projects.filter(x => x.featured === true );
+    }
 
+    getProject(id){
+        return this.projects.filter(x => x.id === id)[0];
     }
 
     handleActions(action) {
@@ -56,3 +46,4 @@ class ProjectStore extends EventEmitter {
 const projectStore = new ProjectStore();
 window.projectStore = projectStore;
 dispatcher.register(projectStore.handleActions.bind(projectStore));
+export default projectStore;
