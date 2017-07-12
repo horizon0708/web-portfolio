@@ -29,7 +29,7 @@ export default class Main extends React.Component{
         const imageUrl = require('../data/mockthumb-2.png');
         return(
             <div className="row">
-                <div className="col-md-12 main-placeholder">
+                <div className="col-md-8 col-sm-11 main-placeholder main-col-centered">
                     <Featured featured={this.state.featured} />
                 </div>
             </div>

@@ -9,11 +9,11 @@ export default class Featured extends React.Component {
     render(){
         const featuredItem = this.props.featured.map(x => {
             return (
-                <ItemFeatured data={x}/>
+                <ItemFeatured data={x} key={x.id}/>
             );
         })
         return (
-            <div>{featuredItem}</div>
+            <div className="featured-list featured-background">{featuredItem}</div>
         );
     }
 

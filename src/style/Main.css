@@ -1,5 +1,11 @@
 .main-placeholder {
     display: block;
-    height: 1000px;
     background-color: darkslategrey;
+}
+
+.main-col-centered{
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+    margin: auto;
 }
