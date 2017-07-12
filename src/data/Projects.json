@@ -1,47 +1,57 @@
 [
-    {
-        "id": 101,
-        "name": "test",
-        "codepen": "",
-        "github": "",
-        "page": "",
-        "description": "",
-        "thumbnail": "" 
-    },
-    {
-        "id": 102,
-        "name": "test 2",
-        "codepen": "",
-        "github": "",
-        "page": "",
-        "description": "",
-        "thumbnail": "" 
-    },
-    {
-        "id": 103,
-        "name": "test 3",
-        "codepen": "",
-        "github": "",
-        "page": "",
-        "description": "",
-        "thumbnail": "" 
-    },
-    {
-        "id": 104,
-        "name": "test 4",
-        "codepen": "",
-        "github": "",
-        "page": "",
-        "description": "",
-        "thumbnail": "" 
-    },
-    {
-        "id": 105,
-        "name": "test 5",
-        "codepen": "",
-        "github": "",
-        "page": "",
-        "description": "",
-        "thumbnail": "" 
-    }
+  {
+    "id": 101,
+    "name": "React-flux Todo List",
+    "codepen": "",
+    "github": "https://github.com/horizon0708/TodoReactFlux",
+    "page": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "thumbnail": "mockthumb-2.png",
+    "tag": "react, flux, javascript",
+    "featured": true
+  },
+  {
+    "id": 102,
+    "name": "MERN Mock Shopping Site",
+    "codepen": "",
+    "github": "",
+    "page": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "thumbnail": "",
+    "tag": "react, flux, mongo, express, javascript",
+    "featured": true
+  },
+  {
+    "id": 103,
+    "name": "Markdown Viewer",
+    "codepen": "",
+    "github": "",
+    "page": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "thumbnail": "",
+    "tag": "",
+    "featured": true
+  },
+  {
+    "id": 104,
+    "name": "Simon Game",
+    "codepen": "",
+    "github": "",
+    "page": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "thumbnail": "",
+    "tag": "",
+    "featured": false
+  },
+  {
+    "id": 105,
+    "name": "Toaster",
+    "codepen": "",
+    "github": "",
+    "page": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "thumbnail": "",
+    "tag": "",
+    "featured": false
+  }
 ]
